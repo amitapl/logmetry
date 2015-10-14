@@ -6,6 +6,7 @@
     using Utils;
 
     [Serializable]
+    [Name("action")]
     public class ActionHandler : StoryHandlerBase
     {
         private readonly Action<IStory> startAction;

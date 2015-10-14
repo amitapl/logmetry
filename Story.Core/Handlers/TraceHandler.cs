@@ -5,6 +5,7 @@ namespace Story.Core.Handlers
     using Utils;
 
     [Serializable]
+    [Name("trace")]
     public class TraceHandler : StoryHandlerBase
     {
         private readonly IStoryFormatter storyFormatter;

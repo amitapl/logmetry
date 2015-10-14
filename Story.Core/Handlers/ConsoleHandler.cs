@@ -5,6 +5,7 @@
     using Utils;
 
     [Serializable]
+    [Name("console")]
     public class ConsoleHandler : StoryHandlerBase
     {
         private readonly IStoryFormatter storyFormatter;

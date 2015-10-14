@@ -6,6 +6,7 @@
     using Utils;
 
     [Serializable]
+    [Name("predicate")]
     public class PredicateRule : IRule<IStory, IStoryHandler>
     {
         private readonly Func<IStory, bool> predicate;

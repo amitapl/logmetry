@@ -6,6 +6,7 @@ namespace Story.Core.Rules
     /// <summary>
     /// Minimum severity rule inclusive.
     /// </summary>
+    [Name("minimumSeverity")]
     public class MinimumSeverityRule : PredicateRule
     {
         public MinimumSeverityRule(LogSeverity minimumSeverity, Func<IStory, IStoryHandler> valueFactory)
